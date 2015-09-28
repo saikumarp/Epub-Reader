@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="icon" href="styles/images/epub.ico" type="image/ico">
+      <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body style="overflow:hidden;">
+   <!--  <button onclick="initialize('sample-fixed-2');" style="left: 0px;">Fixed</button>
+    <button onclick="initialize('accessible_epub');" style="left: 80px;">Reflow</button> -->
+   <!--  <div class="navigation prev" onclick="prev()">P</div>
+    <div class="navigation next" onclick="next()">N</div> -->
+    <script src="scripts/vendor/jquery.js"></script>
+    <script src="scripts/main.js"></script>
+    <script>
+      window.addEventListener("load", ready, false);
+      function ready() {
+        // accessible_epub
+        // sample-fixed-2
+        initialize('sample-fixed-2');
+      }
+    </script>
+  </body>
+</html>
